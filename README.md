@@ -37,5 +37,5 @@ This repository houses a salary calculator that uses JavaScript functions to cal
 - The result will be displayed showing the calculated net salary after deductions.
 
 # Author 
-Author: [Rebekah]
+Author: [Rebekahndanu]
 

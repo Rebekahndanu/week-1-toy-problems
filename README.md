@@ -3,36 +3,39 @@
 This repository contains the javascript toy problems.
 
 # Challenge 1: Student Grade Generator
-In this problem I will create a javascript code that makes the system tell me the grade acheived once i have inputed the marks that are out of 100.
+This repository contains a simple grade calculator implemented in HTML and JavaScript. It asks the user to enter the marks for each student and uses those marks to determine the associated grade. Based on predetermined mark ranges, grades are grouped from "A" to "E."
 
 ## Instructions
--Run the JavaScript function inputStudentMarks().
--Input the student's marks when prompted.
--The input should be a numeric value between 0 and 100.
--The function will output the corresponding grade based on the following   scale:
-        A: Greater than 79
-        B: 60 to 79
-        C: 50 to 59
-        D: 40 to 49
-        E: Less than 40
+- When the index.html file is opened on the browser, a prompt asking the user to submit the student's grades will show.
+- Enter a number in the range of 0 to 100.
+- The corresponding grade will be calculated by the calculator and shown as an alert message.
 
 
 # Challenge 2: Speed Detector
-Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+This repository contains JavaScript code for a speed detector. The script calculates demerit points for car speeds exceeding a predefined limit and determines potential license suspension based on demerit point accumulation.
 
-   > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+## Instructions
+- Open the index.html file in a web browser.
+- Input the car's speed into the designated field.
+- Click the "Calculate" button to generate the result.
 
+### Functionality
+The calculatePoints(event) JavaScript function performs the following actions:
 
+- Captures the entered speed from the input field.
+- Compares the entered speed to a predefined speed limit of 70 km/h.
+- Calculates demerit points based on the excess speed above the limit (5 km/h per demerit point).
+- Displays the result: "Ok" if the speed is within the limit, The number of demerit points if below the maximum allowed and "License suspended" if the demerit points exceed the maximum.
 
 # Challenge 3: Net Salary Calculator
-Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+This repository houses a salary calculator that uses JavaScript functions to calculate PAYE, NHIF, NSSF deductions, and the net salary based on the gross income provided by the user.
 
-NB: Use KRA, NHIF, and NSSF values provided in the link below.
+## Instructions
+- Open the index.html file in a web browser.
+- Input the basic salary and benefits into the respective fields.
+- Click on the "Calculate Net Salary" button.
+- The result will be displayed showing the calculated net salary after deductions.
 
-- https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
-
-Links to an external site.-  Links to an external site.Links to an external site.
-
-- www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
-
+# Author 
+Author: [Rebekah]
 

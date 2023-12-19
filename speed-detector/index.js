@@ -23,3 +23,5 @@ function calculatePoints(event) {
         document.getElementById('result').innerText = "Points: " + demeritPoints;
       }
     }
+    
+calculatePoints()
